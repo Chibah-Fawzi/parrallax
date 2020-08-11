@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    background: #161416;
+}
+
+
+/* button */
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 20px 25px rgba(0, 0, 0, .5);
+    text-decoration: none;
+}
+
+.bttn {
+    height: 60px;
+    width: 500px;
+    background: rgb(26, 34, 46);
+    background: linear-gradient(0deg, rgba(26, 34, 46, 1) 0%, rgba(28, 74, 153, 1) 100%);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 20Px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 5px;
+}
+
+
+/* HEADER */
+
+header #logo {
+    position: relative;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 23px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    text-transform: uppercase !important;
+}
+
+
+/* NAV */
+
+header.sticky {
+    padding: 5px 100px;
+    background: #D0D0D0;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+header.sticky #logo,
+header.sticky ul li a {
+    color: black;
+}
+
+
+/* Content */
+
+h1#center {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.desc {
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+
+.text {
+    text-align: center;
+    margin: 20% 0 20% 0;
+    font-size: 20px;
+    color: white;
+}
+
+.text1 {
+    text-align: center;
+    margin: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: right;
+    margin-right: 50Px;
+    margin-bottom: 10px;
+}

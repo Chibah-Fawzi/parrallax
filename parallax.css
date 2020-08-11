@@ -1,0 +1,37 @@
+/* PARALLAX */
+
+.margin1 {
+    margin: 36% 0;
+}
+
+.margin2 {
+    margin: 5% 80%;
+}
+
+
+/*--- Start Parallax Style --*/
+
+.parallax {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: url(1.jpg) no-repeat fixed 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.parallax-inner {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+
+/*--- End Parallax Style --*/
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
